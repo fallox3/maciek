@@ -1,0 +1,124 @@
+:root
+{
+    --darkBlue: #024059;
+    --lightBlue: #023E73;
+    --orange: #db6e0f;
+    --sand: #D9CCC1;
+    --brown: #8C503A;
+}
+*
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body
+{
+    background-color: var(--darkBlue);
+}
+.hero-shadow
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: -1;
+}
+.navbar
+{
+    font-size: 1.5rem;
+}
+.heroImage
+{
+    position: relative;
+    height: 50rem;
+    background-image: url('images/heroImage.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+.firma
+{
+    background-color: var(--lightBlue);
+    color: var(--orange);
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+h1
+{
+    color: var(--orange);
+}
+.firma-right-top
+{
+    height: 70%;
+    font-size: 150%;
+    padding: 3%;
+}
+.firma-right-bottom
+{
+    height: 30%;
+    font-size: 110%;
+}
+.firma-right-bottom-left
+{
+    width: 70%;
+    padding: 3%;
+}
+.firma-right-bottom-right
+{
+    width: 30%;
+}
+.btn-warning
+{
+    background-color: var(--orange);
+    border: none;
+    color: var(--darkBlue);
+}
+.bi-airplane, .bi-car-front-fill, .bi-bus-front-fill
+{
+    margin-top: 1rem;
+}
+.btn-primary
+{
+    background-color: var(--lightBlue);
+    color: var(--orange);
+}
+.btn-primary:hover
+{
+    background-color: var(--orange);
+    color: var(--lightBlue);
+    transition-duration: 500ms;
+}
+.card
+{
+    margin: 2rem;
+}
+.card:hover 
+{
+    scale: 1.06;
+    transition-duration: 700ms;
+}
+h2, h6
+{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--orange);
+    margin: 3rem 0;
+}
+form
+{
+    background-color: #8C503A;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .d-flex.justify-content-md-center {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+.container-fluid
+{
+
+}
